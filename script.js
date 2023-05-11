@@ -12,7 +12,20 @@ const lookup = {
 
 function rot13(encodedStr){
    let decodedArr = []; // Your Result goes here
-  // Only change code below this line
+  // Only change code below this line //AER  NRE
+	//                                  012
+	for (let i = 0; i < decodedArr.length; i++) {
+		if (lookup(encodedStr[i])==undefined {
+			decodedArr+=encodedStr[i]
+			
+		}
+		else{
+			decodedArr+=lookup(encodedStr[i])
+		}
+			
+		}
+		
+	}
 
   return ;//return decodedArr
 }
